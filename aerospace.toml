@@ -160,7 +160,6 @@ alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
 
-
 # ------------------------------------------
 # window detection
 # ------------------------------------------
@@ -210,13 +209,11 @@ if.app-id = 'md.obsidian'
 run = 'move-node-to-workspace 8-notes'
 
 [[on-window-detected]]
-if.app-id = 'com.todoist.mac.Todoist '
-run = ['move-node-to-workspace 8-notes']
-
-[[on-window-detected]]
+if.app-id = 'com.todoist.mac.Todoist'
+run = 'move-node-to-workspace 8-notes'
 
 # --- 9. music ---
 [[on-window-detected]]
-  if.app-id = 'com.spotify.client'
-  run = 'move-node-to-workspace 9-music'
+if.app-id = 'com.spotify.client'
+run = 'move-node-to-workspace 9-music'
 
