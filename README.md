@@ -1,6 +1,6 @@
 # Aerospace Config
 
-My personal config/documentation for [Aerospace](https://github.com/nikitabobko/AeroSpace). Intended to be used alongside [Raycast](https://raycast.com) and [Bartender](https://www.macbartender.com/)) for a nice workflow.
+My personal config/documentation for [Aerospace](https://github.com/nikitabobko/AeroSpace). Intended to be used alongside [Raycast](https://raycast.com) and [Bartender](https://www.macbartender.com/) for a nice workflow.
 
 ## Controlling windows and layout with Aerospace
 
