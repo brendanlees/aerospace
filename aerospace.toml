@@ -108,7 +108,7 @@ alt-4 = 'workspace 4-files'
 
 alt-5 = 'workspace 5-docs'
 
-alt-6 = 'workspace 6-misc'
+alt-6 = 'workspace 6-misc1'
 alt-7 = 'workspace 7-misc2'
 
 alt-8 = 'workspace 8-notes'
@@ -189,6 +189,10 @@ run = 'move-node-to-workspace 3-email'
 if.app-id = 'notion.id'
 run = 'move-node-to-workspace 3-email'
 
+[[on-window-detected]]
+if.app-id = 'com.invoiceninja.app'
+run = 'move-node-to-workspace 3-email'
+
 # --- 4. files ---
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
@@ -202,6 +206,11 @@ run = 'move-node-to-workspace 5-docs'
 [[on-window-detected]]
 if.app-id = 'com.microsoft.Word'
 run = 'move-node-to-workspace 5-docs'
+
+# --- 6. misc1 ---
+[[on-window-detected]]
+if.app-id = 'com.hnc.Discord'
+run = 'move-node-to-workspace 6-misc1'
 
 # --- 8. notes ---
 [[on-window-detected]]
