@@ -174,12 +174,6 @@ run = 'move-node-to-workspace 1-browser'
 if.app-id = 'com.microsoft.VSCode'
 run = 'move-node-to-workspace 2-code'
 
-[[on-window-detected]]
-if.app-id="com.mitchellh.ghostty"
-run = [
-  'layout floating' # ghostty tab fixes
-]
-
 # --- 3. email / work ---
 [[on-window-detected]]
 if.app-id = 'com.mimestream.Mimestream'
