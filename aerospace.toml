@@ -5,7 +5,7 @@
 # Start AeroSpace at login
 start-at-login = true
 after-login-command = []
-after-startup-command = ['exec-and-forget borders']
+after-startup-command = ['exec-and-forget borders style=round width=6.0 hidpi=on active_color=0xffe2e2e3 inactive_color=0xff414550 blacklist=Todoist,SoundSource,Todoist Helper,TodoistWidgets,Tailscale,Sleeve,PastePal,Dropover']
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
