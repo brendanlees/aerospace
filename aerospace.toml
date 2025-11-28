@@ -213,6 +213,7 @@ run = 'move-node-to-workspace 8-notes'
 
 [[on-window-detected]]
 if.app-id = 'com.todoist.mac.Todoist'
+if.window-title-regex-substring = '^(Today|Upcoming|Inbox|Filters & Labels|.*\(Todoist\))$'
 run = 'move-node-to-workspace 8-notes'
 
 # --- 9. music ---
